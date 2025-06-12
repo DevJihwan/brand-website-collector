@@ -1,0 +1,29 @@
+{
+  "name": "brand-website-collector",
+  "version": "1.0.0",
+  "description": "네이버 검색 API를 활용한 한국 패션 브랜드 홈페이지 수집기 - 재시작 기능 포함",
+  "main": "naver-brand-website-collector.js",
+  "scripts": {
+    "start": "node naver-brand-website-collector.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "naver",
+    "api",
+    "brand",
+    "website",
+    "collector",
+    "korean",
+    "fashion",
+    "search",
+    "musinsa"
+  ],
+  "author": "DevJihwan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
